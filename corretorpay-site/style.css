@@ -1,0 +1,64 @@
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #1A2B4C;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  background: #f4f4f4;
+  text-align: center;
+  padding: 60px 20px;
+}
+.hero a {
+  display: inline-block;
+  margin-top: 20px;
+  background: #1A2B4C;
+  color: white;
+  padding: 12px 24px;
+  text-decoration: none;
+  border-radius: 8px;
+}
+section {
+  padding: 60px 20px;
+}
+.steps, .depoimentos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li::before {
+  content: "✅ ";
+}
+form {
+  max-width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+form input, form button {
+  padding: 12px;
+  font-size: 16px;
+}
+footer {
+  background: #1A2B4C;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
